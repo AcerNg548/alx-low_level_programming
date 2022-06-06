@@ -29,6 +29,6 @@ int main(void)
 		printf("Last digit of%dis%dand is 0\n")
 	}
 
-	return (0);
+return (0);
 
 }
