@@ -4,14 +4,14 @@
 
 /**
  *main - Print lowecase alphabets a-z
- *Return: Always 0.
- */
+ *Return: Always 0
+ **/
 
-int main(void)
+int main (void)
 {
 	char alpha = 'a';
 
-	while(alpha <= 'z')
+	while (alpha <= 'z')
 	{
 		putchar(alpha);
 		alpha++;
