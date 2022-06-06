@@ -8,7 +8,9 @@
  *
  * Return: Always 0.
  */
+
 int main(void)
+
 {
 	int n;
 
@@ -16,17 +18,19 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes here */
 
+	printf("Last digit of %i is %i and is", n, (n % 10));
+
 	if ((n % 10) > 5)
 	{
-		printf("Last digit of%dis%dand is greater than 5\n");
+		printf("greater than 5\n");
 	}
 	else if ((n % 10) < 6 && (n % 10) != 0)
 	{
-		printf("Last digit of%dis%dand is less than 6 and not 0\n")
+		printf("and is less than 6 and not 0\n")
 	}
-	else if ((n % 10) == 0)
+	else ((n % 10) == 0)
 	{
-		printf("Last digit of%dis%dand is 0\n")
+		printf("and is 0\n")
 	}
 
 return (0);
