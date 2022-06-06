@@ -3,20 +3,20 @@
 #include <time.h>
 
 /**
- *main - Print alphabets in lower caes a - z 
- * Return: Always ) (Success)
+ *main - Print lowecase alphabets a-z
+ *Return: Always 0.
  */
 
 int main(void)
 {
-    char alpha = 'a';
+	char alpha = 'a';
 
-    while (alpha <= 'z')
-    {
-        putchar(alpha);
-        alpha++;
-    }
-    putchar('\n');
+	while(alpha <= 'z')
+	{
+		putchar(alpha);
+		alpha++;
+	}
+	putchar('\n');
 
-    return(0);
+	return (0);
 }
