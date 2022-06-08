@@ -6,7 +6,7 @@
  * add extra space past single digit
  */
 
-void times_table(void);
+void times_table(void)
 {
 	int r, c, d;
 
@@ -15,6 +15,7 @@ void times_table(void);
 		_putchar('0');
 		_putchar(',');
 		_putchar(' ');
+
 		for (c = 1; c <= 9; c++)
 		{
 			d = (r * c);
