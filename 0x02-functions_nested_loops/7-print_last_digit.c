@@ -17,7 +17,6 @@ int print_last_digit(int ldn)
 	}
 
 	_putchar(pld + '0');
-	{
+	_putchar('\n');
 	return (pld);
-	}
 }
