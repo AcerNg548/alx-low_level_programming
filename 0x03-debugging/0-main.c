@@ -1,19 +1,16 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "main.h"
 
 /**
- *main - Print a random number and state whether
- *It is positive, negative, or zero
- *Return: Always 0 (Success)
+ * main - tests function that prints if integer is positive or negative
+ * Return: 0
  */
 
 int main(void)
 {
-	int n;
+	int i;
 
-	n = 0;
-	positive_or_negative(n);
+	i = 0;
+	positive_or_negative(i);
 
-return (0);
+	return (0);
 }
