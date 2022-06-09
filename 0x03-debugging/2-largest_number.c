@@ -13,7 +13,7 @@ int largest_number(int a, int b, int c)
 
 	if (a > b && a > c)
 	{
-		kargest = a;
+		largest = a;
 	}
 	else if (b > c)
 	{
