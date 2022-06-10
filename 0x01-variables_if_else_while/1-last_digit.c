@@ -6,7 +6,6 @@
  * Tell whether it's greater than 5, less than 6 or 0.
  * Return: Always 0.
  */
-
 int main(void)
 {
 int(n);
@@ -24,10 +23,11 @@ else if ((n % 10) < 6 && (n % 10) != 0)
 {
 	printf("less than 6 and not 0"\n);
 }
-else ((n % 10) == 0)
+else(((n % 10) == 0))
 {
-	printf(0\n);
+	printf("0"\n);
 }
+
 
 return (0);
 }

@@ -6,7 +6,7 @@
  *main - Print lowecase alphabets a-z
  *Return: Always 0
  **/
-int main (void)
+int main(void)
 {
 	char alpha = 'a';
 
