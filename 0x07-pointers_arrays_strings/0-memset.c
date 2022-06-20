@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * 0-memset - fills the first n bytes of the memeory area
+ * *_memset - fills the first n bytes of the memeory area
  * pointed to by @s with the constant byte @c.
  * @s: a pointer to the memory area to be filled.
  * @b: the caracter to fill the memory area with.
