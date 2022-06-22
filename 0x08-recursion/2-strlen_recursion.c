@@ -19,5 +19,3 @@ int _strlen_recursion(char *s)
 
 	return (len);
 }
-© 2022 GitHub, Inc.
-Terms
