@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints the name of a program, followed by a new line.
- * argc = the number of arguments given to the program on the terminal.
- * argv = an array of pointers to arguments
+ * main - Prints the program name, followed by a new line.
+ * @argc: The number of arguments supplied to the program.
+ * @argv: An array of pointers to the argument.
  *
  * Return: Always 0.
  */
