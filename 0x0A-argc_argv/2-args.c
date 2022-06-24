@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - it prints all arguments it receives
- * including the first argument and the outputs should be on a new line.
- * argc -  the number of arguement to be printed.
- * argv - array of pointers to the arguement.
+ * main - Prints all arguments it receives.
+ * @argc: The number of arguments supplied to the program.
+ * @argv: An array of pointers to the arguments.
  *
  * Return: Always 0.
  */
