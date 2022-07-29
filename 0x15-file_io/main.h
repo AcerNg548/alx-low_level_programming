@@ -3,7 +3,6 @@
 
 /*
  * File: main.h
- * Auth: Isaac Baccah
  * Desc: Header file containing prototypes for all functions
  *       written in the 0x14-file_io directory.
  */
